@@ -1,0 +1,22 @@
+### Listando Images no Docker 
+
+```bash
+docker images ls
+```
+
+### Adicionando TAG imagem container 
+
+```bash
+ docker tag nome.da.image:tag localhost:5000/nome.da.image:tag
+```
+
+###  Empurrando uma imagem container para o servidor local 
+
+```bash
+docker push localhost:5000/nome.da.image:tag```
+```
+
+### Puxando uma imagem do servidor local 
+```bash
+docker pull 10.28.2.91/nome.da.image:tag
+```
